@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: com.mycompany.alguma2
+Bundle-ManifestVersion: 2
+Bundle-Name: com.mycompany.alguma2
+Bundle-Vendor: My Company
+Bundle-Version: 1.0.0.qualifier
+Bundle-SymbolicName: com.mycompany.alguma2; singleton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.eclipse.xtext,
+ org.eclipse.xtext.xbase,
+ org.eclipse.equinox.common;bundle-version="3.16.0",
+ org.eclipse.emf.ecore,
+ org.eclipse.xtext.common.types,
+ org.eclipse.xtext.xbase.lib;bundle-version="2.14.0",
+ org.eclipse.xtext.util,
+ org.eclipse.emf.common,
+ org.antlr.runtime;bundle-version="[3.2.0,3.2.1)",
+ org.objectweb.asm;bundle-version="[9.5.0,9.6.0)";resolution:=optional
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Export-Package: com.mycompany.alguma2.serializer,
+ com.mycompany.alguma2.scoping,
+ com.mycompany.alguma2.parser.antlr,
+ com.mycompany.alguma2.alguma2.util,
+ com.mycompany.alguma2.alguma2,
+ com.mycompany.alguma2,
+ com.mycompany.alguma2.services,
+ com.mycompany.alguma2.parser.antlr.internal,
+ com.mycompany.alguma2.validation,
+ com.mycompany.alguma2.jvmmodel,
+ com.mycompany.alguma2.alguma2.impl
+Import-Package: org.apache.log4j

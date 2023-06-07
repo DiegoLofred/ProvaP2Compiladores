@@ -1,0 +1,13 @@
+grammar com.mycompany.alguma2.Alguma2 with org.eclipse.xtext.xbase.Xbase
+
+generate alguma2 "http://www.mycompany.com/alguma2/Alguma2"
+
+import "http://www.eclipse.org/xtext/xbase/Xbase"
+
+Programa : ':' 'DECLARACOES' (declaracoes+=Declaracao)+ ':' 'ALGORITMO' algoritmo=Algoritmo;
+Algoritmo returns XExpression:
+	{XBlockExpression}
+	(expressions+=XExpressionOrVarDeclaration ';'?)*
+;
+Declaracao : nome=ID ':' tipo=TipoVar;
+TipoVar : 'INTEIRO' | 'REAL';

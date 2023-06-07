@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+	<extension point="org.eclipse.emf.ecore.generated_package">
+		<package
+			uri = "http://www.mycompany.com/alguma2/Alguma2"
+			class = "com.mycompany.alguma2.alguma2.Alguma2Package"
+			genModel = "model/generated/Alguma2.genmodel" />
+	</extension>
+</plugin>
