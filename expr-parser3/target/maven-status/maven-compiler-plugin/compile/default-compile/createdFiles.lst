@@ -1,0 +1,13 @@
+com\mycompany\expr\parser3\ExpressoesListener.class
+com\mycompany\expr\parser3\ExpressoesParser$FatorContext.class
+com\mycompany\expr\parser3\ExpressoesLexer.class
+com\mycompany\expr\parser3\ExpressoesBaseVisitor.class
+com\mycompany\expr\parser3\ExpressoesVisitor.class
+com\mycompany\expr\parser3\ExpressoesParser$ExpressaoContext.class
+com\mycompany\expr\parser3\ExpressoesParser$ProgramaContext.class
+com\mycompany\expr\parser3\ExpressoesParser$Op2Context.class
+com\mycompany\expr\parser3\ExpressoesParser.class
+com\mycompany\expr\parser3\ExpressoesParser$Op1Context.class
+com\mycompany\expr\parser3\ExpressoesParser$TermoContext.class
+com\mycompany\expr\parser3\ExpressoesBaseListener.class
+com\mycompany\expr\parser3\ExprParser3.class
